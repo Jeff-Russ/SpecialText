@@ -24,9 +24,9 @@ end getOptionsList
 This would create the menu:
 
 ```
-f	   (opt a) inserts:  	\dfrac{}{}
-pm	 (opt b) inserts:	  ±
-ra	 (opt d) inserts:  	→
+f	   (opt a) inserts:   \dfrac{}{}
+pm   (opt b) inserts:   ±
+ra   (opt d) inserts:   →
 ```
 
 Since we have a third element `false` for the third sublist is is not shown but `"ℝ"`is still available to be inserted if `"R"` it typed. This is helpful to prevent the list from becomming clutted with easy-to-remember key shortcuts. 
