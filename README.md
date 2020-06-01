@@ -24,7 +24,7 @@ end getOptionsList
 This would create the menu:
 
 ```
-f	   (opt a) inserts:   \dfrac{}{}
+f    (opt a) inserts:   \dfrac{}{}
 pm   (opt b) inserts:   ±
 ra   (opt d) inserts:   →
 ```
