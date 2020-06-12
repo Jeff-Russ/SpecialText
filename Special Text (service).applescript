@@ -1,16 +1,17 @@
-on run {input, parameters}
+on run {input, parameters}	
 	set targetApp to "Special Text"
 	
-	if application targetApp is running then
+	--this service's key shortcut can be used to either launch the app
+	--or to shift focus back to it.
+	
+	repeat until application targetApp is not running
 		tell application targetApp
 			quit
-			activate
-			
-		end tell
-	else
-		tell application targetApp to activate
-	end if
-	
+		end tell    
+    	delay 0.3
+    end repeat
 
+	tell application targetApp to activate
+	
 	return input
 end run
